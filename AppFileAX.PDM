@@ -1,0 +1,101 @@
+[Root]
+Most Recent Package=Monica's file uploader
+
+
+[Package|Monica's file uploader|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Projects\Visual Basic\AppFileAX\Package
+
+[Package|Monica's file uploader|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Monica's file uploader|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Monica's file uploader|Files Found]
+
+[Package|Monica's file uploader|Files Released]
+
+[Package|Monica's file uploader|Missing Dependency Information]
+C:\WINDOWS\system32\WINHTTP5.DLL=
+
+[Package|Monica's file uploader|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Monica's file uploader|Files Added]
+
+[Package|Monica's file uploader|Files Removed]
+
+[Package|Monica's file uploader|Files In Project]
+C:\Projects\Visual Basic\AppFileAX\AppFileAX.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINDOWS\system32\WINHTTP5.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Monica's file uploader|Configure Registry Files]
+Applicable=No
+
+[Package|Monica's file uploader|Configure Remote Servers]
+Applicable=No
+
+[Package|Monica's file uploader|Install Locations]
+C:\Projects\Visual Basic\AppFileAX\AppFileAX.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrun.dll=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\WINHTTP5.DLL=$(AppPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Monica's file uploader|Configure Shared Files]
+Applicable=Yes
+C:\Projects\Visual Basic\AppFileAX\AppFileAX.exe=No
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\WINHTTP5.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+
+[Package|Monica's file uploader|Distribution]
+Type=single
+Size=
+Title=Monica's DreamCasa file uploader
+
+[Package|Monica's file uploader|IconGroups]
+Group0=Monica's DreamCasa file uploader
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Monica's file uploader|Monica's DreamCasa file uploader]
+Icon1=AppFileAX.exe
+Title1=Monica's DreamCasa file uploader
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Monica's file uploader|Package]
+PackageFolder=C:\Projects\Visual Basic\AppFileAX\Package
+ProjectFolder=C:\Projects\Visual Basic\AppFileAX
+ServerSideCab=
+File1=C:\Projects\Visual Basic\AppFileAX\Package\setup.exe
+File2=C:\Projects\Visual Basic\AppFileAX\Package\Setup.Lst
+File3=C:\Projects\Visual Basic\AppFileAX\Package\AppFileAX.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
